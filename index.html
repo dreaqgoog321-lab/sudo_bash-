@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETHICAL HACKING & CYBERSECURITY</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">CYBERSECURE</div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="ethical-hacking.html">ETHICAL HACKING</a></li>
+                <li><a href="cyber-security.html">CYBER SECURITY</a></li>
+                <li><a href="cyber-attacks.html">CYBER ATTACKS</a></li>
+                <li><a href="kali-linux.html">KALI LINUX</a></li>
+                <li><a href="tools.html">TOOLS</a></li>
+                <li><a href="#request">REQUEST ASSESSMENT</a></li>
+                <li><a href="admin/">ADMIN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="terminal">
+            <div class="typing-text"></div>
+            <p class="tagline">LEGAL ETHICAL HACKING FOR CYBERSECURITY PROFESSIONALS</p>
+            <p style="color: #ff0040; font-weight: 700; font-size: 1.1rem;">
+                ⚠️ EDUCATIONAL PURPOSES ONLY - AUTHORIZED TESTING REQUIRED
+            </p>
+            <button class="btn" onclick="document.querySelector('#request').scrollIntoView({behavior: 'smooth'})">
+                REQUEST VULNERABILITY ASSESSMENT
+            </button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">WHY ETHICAL HACKING?</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h3>LEGAL & AUTHORIZED</h3>
+                    <p>ALL TESTING PERFORMED WITH WRITTEN PERMISSION FROM SYSTEM OWNERS. PROTECTING ASSETS LEGALLY.</p>
+                </div>
+                <div class="card">
+                    <h3>PROACTIVE DEFENSE</h3>
+                    <p>IDENTIFY VULNERABILITIES BEFORE ATTACKERS EXPLOIT THEM. STRENGTHEN YOUR SECURITY POSTURE.</p>
+                </div>
+                <div class="card">
+                    <h3>PROFESSIONAL CERTIFICATIONS</h3>
+                    <p>CEH, OSCP, CISSP - INDUSTRY-RECOGNIZED CREDENTIALS FOR CYBERSECURITY CAREERS.</p>
+                </div>
+                <div class="card">
+                    <h3>EDUCATIONAL FOCUS</h3>
+                    <p>LEARN CYBERSECURITY CONCEPTS, TOOLS, AND METHODOLOGIES FOR LEGITIMATE PROFESSIONAL USE.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="request" class="section" style="background: rgba(0,0,0,0.5);">
+        <div class="container">
+            <h2 class="section-title">REQUEST VULNERABILITY ASSESSMENT</h2>
+            
+            <div class="disclaimer">
+                <strong>⚠️ MANDATORY DISCLAIMER:</strong><br>
+                TESTING WILL BE PERFORMED ONLY WITH WRITTEN PERMISSION FROM THE WEBSITE OWNER.
+            </div>
+
+            <form id="requestForm" class="form-container" action="submit-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="website_url">WEBSITE URL</label>
+                    <input type="url" id="website_url" name="website_url" required>
+                </div>
+                <div class="form-group">
+                    <label for="test_type">TYPE OF TEST</label>
+                    <select id="test_type" name="test_type" required>
+                        <option value="">SELECT TEST TYPE</option>
+                        <option value="web_application">WEB APPLICATION</option>
+                        <option value="network">NETWORK</option>
+                        <option value="penetration_testing">PENETRATION TESTING</option>
+                        <option value="vulnerability_scan">VULNERABILITY SCAN</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" rows="5" placeholder="PROVIDE ADDITIONAL DETAILS..."></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">SUBMIT SECURE REQUEST</button>
+            </form>
+
+            <div class="payment-info">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: #00d4ff;">PAYMENT INFORMATION (MANUAL)</h3>
+                <div class="payment-option">
+                    <span class="payment-label">UPI ID:</span>
+                    <span class="payment-value">ziayee@axl</span>
+                </div>
+                <div class="payment-option">
+                    <span class="payment-label">BANK ACCOUNT:</span>
+                    <span class="payment-value">0732040800003231</span>
+                </div>
+                <div class="payment-option">
+                    <span class="payment-label">IFSC CODE:</span>
+                    <span class="payment-value">JAKA0CHANDK</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="footer-content">
+                THIS WEBSITE IS FOR EDUCATIONAL AND LEGAL ETHICAL HACKING PURPOSES ONLY.<br>
+                ANY ILLEGAL ACTIVITY IS STRICTLY PROHIBITED AND NOT SUPPORTED.
+            </p>
+            <p class="copyright">© 2026 SHAKIR HUSSAIN. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

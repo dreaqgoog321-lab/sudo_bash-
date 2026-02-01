@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOOLS | CYBERSECURE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .tool-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .tool-card { border-left: 4px solid #00ff88; padding-left: 1.5rem; }
+        .tool-name { color: #00ff88; font-family: 'Roboto Mono', monospace; }
+        .warning-card { background: rgba(255,0,64,0.1); border: 2px solid #ff0040; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">CYBERSECURE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="ethical-hacking.html">ETHICAL HACKING</a></li>
+                <li><a href="cyber-security.html">CYBER SECURITY</a></li>
+                <li><a href="cyber-attacks.html">CYBER ATTACKS</a></li>
+                <li><a href="kali-linux.html">KALI LINUX</a></li>
+                <li><a href="#tools">TOOLS</a></li>
+                <li><a href="index.html#request">REQUEST</a></li>
+                <li><a href="admin/">ADMIN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="background: radial-gradient(circle, rgba(0,255,136,0.15) 0%, transparent 70%);">
+        <div class="terminal">
+            <div class="typing-text"></div>
+            <p class="tagline">PROFESSIONAL CYBERSECURITY TOOLS</p>
+            <p style="color: #00ff88; font-weight: 700; font-size: 1.1rem;">
+                ⚠️ AUTHORIZED USE ONLY | WRITTEN PERMISSION REQUIRED
+            </p>
+            <a href="#legal" class="btn">LEGAL REQUIREMENTS</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" id="tools">ETHICAL HACKING TOOLS</h2>
+            
+            <div class="warning-card" style="margin-bottom: 3rem;">
+                <h3>🚨 LEGAL DISCLAIMER</h3>
+                <p><strong>THESE TOOLS REQUIRE:</strong><br>
+                1️⃣ WRITTEN OWNER PERMISSION<br>
+                2️⃣ CONTRACT/SOW DOCUMENT<br>
+                3️⃣ VM ENVIRONMENT ONLY<br>
+                4️⃣ VPN + PROXIES<br>
+                <strong>ILLEGAL USE = FELONY</strong></p>
+            </div>
+
+            <div class="tool-grid">
+                <div class="tool-card card">
+                    <h3 class="tool-name">NESSUS</h3>
+                    <p><strong>VULNERABILITY SCANNER</strong><br>
+                    Discovers 50,000+ CVEs. Commercial license required.<br>
+                    <strong>LEGAL:</strong> Network scanning with permission</p>
+                </div>
+
+                <div class="tool-card card">
+                    <h3 class="tool-name">BURP SUITE PRO</h3>
+                    <p><strong>WEB APPLICATION TESTING</strong><br>
+                    Intercept, modify, fuzz web traffic. $399/year.<br>
+                    <strong>LEGAL:</strong> Authorized web app pentesting</p>
+                </div>
+
+                <div class="tool-card card">
+                    <h3 class="tool-name">METASPLOIT</h3>
+                    <p><strong>EXPLOITATION FRAMEWORK</strong><br>
+                    3,000+ exploits. Commercial = $15K/year.<br>
+                    <strong>LEGAL:</strong> Controlled lab environments only</p>
+                </div>
+
+                <div class="tool-card card">
+                    <h3 class="tool-name">NMAP</h3>
+                    <p><strong>NETWORK MAPPER</strong><br>
+                    Port scanning, service detection, OS fingerprinting.<br>
+                    <strong>LEGAL:</strong> Your own networks + permission</p>
+                </div>
+
+                <div class="tool-card card">
+                    <h3 class="tool-name">WIRESHARK</h3>
+                    <p><strong>NETWORK PROTOCOL ANALYZER</strong><br>
+                    Capture/decode network traffic.<br>
+                    <strong>LEGAL:</strong> Own networks + workplace monitoring</p>
+                </div>
+
+                <div class="tool-card card">
+                    <h3 class="tool-name">OWASP ZAP</h3>
+                    <p><strong>WEB APP SCANNER</strong><br>
+                    Open source Burp alternative. Active/passive scanning.<br>
+                    <strong>LEGAL:</strong> Authorized web testing</p>
+                </div>
+            </div>
+
+            <div class="warning-card" id="legal" style="margin-top: 3rem;">
+                <h3>✅ PROFESSIONAL SETUP REQUIREMENTS</h3>
+                <ul>
+                    <li><strong>VM ONLY:</strong> VMware/VirtualBox + Snapshots</li>
+                    <li><strong>NO INTERNET:</strong> Disconnect unless VPN active</li>
+                    <li><strong>DOCUMENTATION:</strong> Screenshot everything</li>
+                    <li><strong>ROE:</strong> Rules of Engagement contract</li>
+                    <li><strong>REPORT:</strong> Findings → Remediation plan</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: rgba(0,255,136,0.05);">
+        <div class="container">
+            <h2 class="section-title">KALI LINUX TOOLCHAIN</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <h3>INSTALLED BY DEFAULT</h3>
+                    <p>NMAP | AIRCRACK-NG | SQLMAP | JOHN | HASHCAT | MALTEGO | BEFF | SET</p>
+                </div>
+                <div class="card">
+                    <h3>⚠️ DANGER ZONE</h3>
+                    <p>Metasploit | Beef-XSS | SET | Social-Engineer Toolkit<br>
+                    <strong>VM + VPN = MANDATORY</strong></p>
+                </div>
+                <div class="card">
+                    <h3>YOUR NEXT STEP</h3>
+                    <p><a href="index.html#request" style="color: #00ff88; font-weight: bold;">REQUEST PROFESSIONAL ASSESSMENT</a><br>
+                    Licensed professionals handle licensing/contracts/tools legally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="footer-content">
+                PROFESSIONAL CYBERSECURITY TOOLS REQUIRE PROFESSIONAL RESPONSIBILITY.<br>
+                AUTHORIZED USE ONLY - CONTRACT REQUIRED.
+            </p>
+            <p class="copyright">© 2026 SHAKIR HUSSAIN. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        const toolTexts = [
+            "AUTHORIZED TOOLS ONLY",
+            "VM + VPN + PERMISSION REQUIRED",
+            "PROFESSIONAL PENTEST SETUP",
+            "LEGAL CYBERSECURITY OPERATIONS"
+        ];
+        typeWriterEffect('.typing-text', toolTexts);
+    </script>
+</body>
+</html>
